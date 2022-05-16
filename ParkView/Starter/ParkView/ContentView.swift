@@ -33,7 +33,7 @@
 import SwiftUI
 import MapKit
 
-let park = Park(filename: "MagicMountain")
+let park = Park(filename: "Clock")
 let mapView = MKMapView(frame: UIScreen.main.bounds)
 
 struct MapView: UIViewRepresentable {
@@ -64,7 +64,7 @@ struct MapView: UIViewRepresentable {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
       return ParkMapOverlayView(
         overlay: overlay,
-        overlayImage: UIImage(imageLiteralResourceName: "overlay_park"))
+        overlayImage: UIImage(imageLiteralResourceName: "tac12clock"))
     }
       
       func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {

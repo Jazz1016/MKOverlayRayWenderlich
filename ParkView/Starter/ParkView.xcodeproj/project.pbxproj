@@ -11,6 +11,8 @@
 		0D93AA4A283193CB00AF2893 /* ParkMapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93AA49283193CB00AF2893 /* ParkMapOverlayView.swift */; };
 		0D93AA4C2831983300AF2893 /* AttractionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93AA4B2831983300AF2893 /* AttractionAnnotation.swift */; };
 		0D93AA4E283199F600AF2893 /* AttractionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93AA4D283199F600AF2893 /* AttractionAnnotationView.swift */; };
+		0D93AA502831A3C300AF2893 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93AA4F2831A3C300AF2893 /* Clock.swift */; };
+		0D93AA522831A43700AF2893 /* Clock.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D93AA512831A43700AF2893 /* Clock.plist */; };
 		18D775C122AD944300AE281E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D775C022AD944300AE281E /* AppDelegate.swift */; };
 		18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D775C222AD944300AE281E /* SceneDelegate.swift */; };
 		18D775C522AD944300AE281E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D775C422AD944300AE281E /* ContentView.swift */; };
@@ -31,6 +33,8 @@
 		0D93AA49283193CB00AF2893 /* ParkMapOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkMapOverlayView.swift; sourceTree = "<group>"; };
 		0D93AA4B2831983300AF2893 /* AttractionAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotation.swift; sourceTree = "<group>"; };
 		0D93AA4D283199F600AF2893 /* AttractionAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotationView.swift; sourceTree = "<group>"; };
+		0D93AA4F2831A3C300AF2893 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		0D93AA512831A43700AF2893 /* Clock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Clock.plist; sourceTree = "<group>"; };
 		18D775BD22AD944300AE281E /* ParkView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D775C022AD944300AE281E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D775C222AD944300AE281E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				F9FF1835243736950002EA18 /* TazLocations.plist */,
 				F9FF1836243736950002EA18 /* EntranceToGoliathRoute.plist */,
 				F9FF1837243736950002EA18 /* TweetyBirdLocations.plist */,
+				0D93AA512831A43700AF2893 /* Clock.plist */,
 			);
 			path = "Park Information";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F9FF1840243736BC0002EA18 /* Park.swift */,
+				0D93AA4F2831A3C300AF2893 /* Clock.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 				F9FF1838243736950002EA18 /* BatmanLocations.plist in Resources */,
 				F9FF1839243736950002EA18 /* MagicMountain.plist in Resources */,
 				F9FF183B243736950002EA18 /* TazLocations.plist in Resources */,
+				0D93AA522831A43700AF2893 /* Clock.plist in Resources */,
 				18D775C722AD944400AE281E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +248,7 @@
 				0D93AA4E283199F600AF2893 /* AttractionAnnotationView.swift in Sources */,
 				0D93AA4C2831983300AF2893 /* AttractionAnnotation.swift in Sources */,
 				18D775C122AD944300AE281E /* AppDelegate.swift in Sources */,
+				0D93AA502831A3C300AF2893 /* Clock.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				0D93AA462831921C00AF2893 /* ParkMapOverlay.swift in Sources */,
